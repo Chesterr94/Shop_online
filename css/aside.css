@@ -1,0 +1,47 @@
+.main-aside {
+  background-image: url("/img/asisde/banner1920.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+
+.main-aside-text {
+  text-align: start;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
+  padding: 7.6vw 0 2.6vw 5.8vw;
+}
+
+.main-aside-text-small {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  padding: 2.6vw 0 0.1vw;
+}
+
+.main-aside-block {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 473px;
+  gap: 30px;
+  padding: 0.1vw 0 2.1vw;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+}
+
+.main-aside-block-text {
+  display: flex;
+}
+
+.main-aside-block-text-span {
+  display: flex;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  padding-top: 25px;
+  padding-left: 6px;
+}
