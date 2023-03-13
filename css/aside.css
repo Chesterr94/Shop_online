@@ -1,9 +1,11 @@
 .main-aside {
+  display: grid;
   background-image: url("/img/asisde/banner1920.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   color: #FFFFFF;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .main-aside-text {
@@ -44,4 +46,12 @@
   line-height: 130%;
   padding-top: 25px;
   padding-left: 6px;
+}
+
+@media (max-width: 1549px) {
+  .main-aside {
+    display: block;
+    background-image: url("/img/asisde/banner1024.jpg");
+    margin-bottom: 22px;
+  }
 }
