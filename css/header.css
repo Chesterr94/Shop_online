@@ -105,6 +105,12 @@
 
 
 @media (max-width: 1549px) {
+
+  .header-container {
+    width: 100%;
+    padding: 34px 3.9vw 30px;
+  }
+
   .header-nav-bar {
     display: grid;
     justify-content: space-between;
@@ -136,5 +142,121 @@
   .header-nav-bar-block-list {
     width: 100%;
     max-width: 294px;
+  }
+}
+
+@media (max-width: 934px) {
+
+  .header-container {
+    width: 100%;
+    padding: 25px 3.9vw 25px;
+  }
+
+  .header-nav-bar-logo-text {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+  }
+
+  .header-nav-bar-block-list {
+    width: 100%;
+    max-width: 221px;
+  }
+
+  .header-nav-bar-block-list-item-svg {
+    width: 30px;
+  }
+
+  .header-nav-bar-block-list-item-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .header-nav-bar-menu-button {
+    padding: 7px 21px 11px 49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .header-nav-bar-menu-button::before {
+    width: 24px;
+    height: 24px;
+    left: 21px;
+    top: 8px;
+  }
+
+  .header-nav-bar-search-form-input {
+    height: 42px;
+  }
+
+  .header-nav-bar-search-form-input::placeholder {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+    padding: 11px 0 15px 30px;
+  }
+
+  .header-nav-bar-search-form-button {
+    height: 42px;
+    width: 82px;
+    padding: 9.75px 30.39px 10.39px 29.75px;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='30' height='30' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cg clip-path='url(%23clip0_2903_7)'%3e%3cpath d='M23.25 21H22.065L21.645 20.595C23.115 18.885 24 16.665 24 14.25C24 8.865 19.635 4.5 14.25 4.5C8.865 4.5 4.5 8.865 4.5 14.25C4.5 19.635 8.865 24 14.25 24C16.665 24 18.885 23.115 20.595 21.645L21 22.065V23.25L28.5 30.735L30.735 28.5L23.25 21ZM14.25 21C10.515 21 7.5 17.985 7.5 14.25C7.5 10.515 10.515 7.5 14.25 7.5C17.985 7.5 21 10.515 21 14.25C21 17.985 17.985 21 14.25 21Z' fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0_2903_7'%3e%3crect width='36' height='36' fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e ");
+  }
+
+}
+
+@media (max-width: 540px) {
+  .header-container {
+    width: 100%;
+    padding: 20px 3.9vw 20px;
+  }
+
+  .header-nav-bar {
+    grid-template: 1fr 1fr 1fr/1fr 1fr;
+  }
+
+  .header-nav-bar-logo {
+    grid-row: 1/2;
+    grid-column: 1/3;
+  }
+
+  .header-nav-bar-logo-text {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+  }
+
+  .header-nav-bar-menu-button {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-size: 12px;
+    line-height: 150%;
+    padding: 5px 14px 7px 31px;
+    border-radius: 4px;
+  }
+
+  .header-nav-bar-menu-button::before {
+    width: 14px;
+    height: 14px;
+    left: 15px;
+    top: 8px;
+  }
+
+  .header-nav-bar-search {
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+
+  .header-nav-bar-block {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    gap: 6.25vw;
+  }
+
+  .header-nav-bar-block-list-item-text {
+    display: none;
   }
 }
