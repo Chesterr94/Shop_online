@@ -1,3 +1,9 @@
+.main-container {
+  width: 100%;
+  padding: 45px 3.9vw 140px;
+  text-align: center;
+}
+
 .main-header {
   display: grid;
   width: 100%;
