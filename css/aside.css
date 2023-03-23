@@ -104,7 +104,7 @@
   }
 }
 
-@media (max-width: 934px) {
+/* @media (max-width: 934px) {
 
   .main-header-text {
     font-size: 30px;
@@ -124,7 +124,7 @@
     font-size: 12px;
   }
 
-}
+} */
 
 @media (max-width: 540px) {
   .main-header {
